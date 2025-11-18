@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
+import Test from "../pages/Test";
 
 const Root = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/" exact element={<Test />} />
       </Routes>
     </div>
   );
